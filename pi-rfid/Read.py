@@ -9,4 +9,6 @@ try:
     print("id:" + str(id))
     print("text:" + text)
 finally:
+    print("starting clean up")
     GPIO.cleanup()
+    print("finished clean up")
